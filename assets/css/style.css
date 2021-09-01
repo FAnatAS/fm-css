@@ -1,22 +1,23 @@
 img{
   width: 400px;
   box-sizing: border-box;
-  /* height: 400px; */
   border: 3px solid red;
-  padding: 70px; 
-  /* padding-left: 5px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 20px; */
-  margin: 30px;
-  border-radius: 25%;
-  border-color: royalblue;
-  border-top-color: seagreen;
-  border-left-color: snow;
-  border-right-color: red;
-  border-bottom-color: yellow;
-  border-left: none;
-  border-right-style: dotted;
-  border-bottom-color: blue;
-  border-top-width: 20px;
+  padding: 5px 15px; 
+  margin: 10px;
+}
+.span{
+  width: 300px;
+  border: 3px solid red;
+  padding: 15px;
+  margin: 40px;
+}
+.div{
+  width: 300px; 
+  border: 3px solid red;
+  margin: 50px auto;
+}
+.align-center{
+  margin: -20px auto;
+  text-align: center;
+
 }
