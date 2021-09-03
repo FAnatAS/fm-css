@@ -1,20 +1,10 @@
-.container{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
-  padding-top: 20px;
-  margin: 10px;
-  background-color: red;
-  text-align: center;
-  font-size: 2em;
+ul{
+list-style-type: lower-roman;
+list-style-position: inside;
 }
-.hidden1{
-  display: none;
-}
-.hidden2{
-  opacity: 0;
-}
-.hidden3{
-  visibility: hidden;
+ol{
+  list-style-type: square;/*none*/
+  list-style-image: url(./../images/atom.png);
+  list-style-position: inside;
+
 }
