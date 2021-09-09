@@ -1,16 +1,17 @@
-th,td{
-  border: 1px solid #555;
-  vertical-align: top;
-  text-align: center;
-  /* margin: 20px; */
+p{
+  cursor: help;
 }
-table{
-  border-collapse: collapse;
-  min-width: 500px;
-  width: 100%;
-  max-width: 1100px;
-  empty-cells: hide;
+p::first-letter{
+  font-size: 2em;
+  color: red;
+  font-weight: bolder;
 }
-caption{
-  text-align: right;
+p::first-line{
+  background-color: rgb(128, 197, 199);
+  color: white;
+}
+p::selection{
+  color: blueviolet;
+  background-color: yellow;
+  text-shadow: 1px 1px 2px black;
 }
